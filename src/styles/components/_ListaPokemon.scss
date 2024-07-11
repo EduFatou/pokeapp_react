@@ -1,0 +1,16 @@
+.cardListed {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url('../../../src/assets/card_back_listed.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.listaPokemon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+}

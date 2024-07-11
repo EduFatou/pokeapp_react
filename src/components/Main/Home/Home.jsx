@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Search from './Search/Search';
 import ListaPokemon from "./ListaPokemon/ListaPokemon";
 
+
 const Home = () => {
   const [pokemonList, setPokemonList] = useState([]);
 

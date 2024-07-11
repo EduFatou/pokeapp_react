@@ -1,4 +1,13 @@
-main{
+body {
+    background-image: url('../../../src/assets/background_main.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.main{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    height: 85vh;
 }

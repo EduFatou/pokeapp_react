@@ -5,6 +5,8 @@ import Details from './Details';
 
 
 
+
+
 const Main = () => {
   return <main className="main">
   <Routes>
