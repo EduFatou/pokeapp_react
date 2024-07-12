@@ -10,14 +10,14 @@ const Details = () => {
   const [pokemon] = pokemonList.filter(item => item.id == pokemonID.id);
   console.log(pokemonID)
 
-  return <section className="details">
+  return <section className='details'>
     <article className='card'>
-    <div className="info">
+    <div className='info'>
       <p>Name: {pokemon.species.name}</p>
       <p>ID: {pokemon.id}</p>
       <p>Type: {pokemon.types.map(type => type.type.name).join(', ')}</p>
       </div>
-      <img src={pokemon.sprites.other['official-artwork'].front_default || defaultImage} alt={pokemon.name} className="img-card" />
+      <img src={pokemon.sprites.other['official-artwork'].front_default || defaultImage} alt={pokemon.name} className='img-card' />
     </article>
     <article className='info'>
       <p>Height: {pokemon.height}</p>
